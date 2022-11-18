@@ -1,0 +1,54 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    geo_api_service:
+        type: dropdown
+        label: API Service
+        default: maxmind
+        span: left
+        options:
+            ipinfodb: ipinfodb.com
+            maxmind: MaxMind GeoIP2
+
+    ip_info_api_key:
+        type: text
+        span: left
+        label: Your ipinfodb.com API key
+        placeholder: "Enter yout API key here"
+        comment: "Register for a free account here: http://ipinfodb.com/register.php"
+        dependsOn: geo_api_service
+
+    ip_info_asynchronous:
+        type: checkbox
+        span: left
+        label: Query ipinfodb.com API asynchronous
+        default: true
+        comment: "Leave checked for asynchronous calls to ipinfodb.com API via jobs queue."
+        dependsOn: geo_api_service
+
+    ip_info_max_request_time:
+        type: text
+        span: left
+        label: Max allowed ipinfodb.com request time in seconds
+        default: 5
+        comment: "It takes about 1 to 2 seconds 99% of time to get a response back from ipinfodb.com service. 5 seconds is a reasonable default"
+        dependsOn: geo_api_service
+
+    ip_info_location_ttl:
+        type: text
+        span: left
+        label: "Location cache expiration in hours"
+        default: 48
+        comment: "IP address range is being allocated, released or reallocated by regional registry everyday. Less hours means more precession but also more frequent API queries. 48 hours is a reasonable default. If set to zero all requests will query API"
+        dependsOn: geo_api_service
+
+    max_mind_database_path:
+        type: text
+        span: left
+        label: "Path of MaxMind GeoCity database file"
+        placeholder: app/geolite/GeoLite2-City.mmdb
+        comment: "Path relative to storage directory. Free GeoLite2 City database is included with this plugin and will be used if this field is left blank."
+        dependsOn: geo_api_service
+        default: app/geolite/GeoLite2-City.mmdb

@@ -1,0 +1,53 @@
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h1>Hello {{geoLocation.data.ipAddress}}</h1>
+            </div>
+            <div class="panel-body">
+                <h4 class="text-left">We could retrieve following information from your IP address:</h4>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover text-left">
+                        <tr>
+                            <td>IP Address</td>
+                            <td><strong>{{ geoLocation.data.ipAddress }}</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Country Code</td>
+                            <td><strong>{{ geoLocation.data.countryCode }}</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Country Name</td>
+                            <td><strong>{{ geoLocation.data.countryName }}</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Region Name (state)</td>
+                            <td><strong>{{ geoLocation.data.regionName }}</strong></td>
+                        </tr>
+                        <tr>
+                            <td>City Name</td>
+                            <td><strong>{{ geoLocation.data.cityName }}</strong></td>
+                        </tr>
+                        <tr>
+                            <td>ZIP Code (postal code)</td>
+                            <td><strong>{{ geoLocation.data.zipCode }}</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Latitude</td>
+                            <td><strong>{{ geoLocation.data.latitude }}</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Longitude</td>
+                            <td><strong>{{ geoLocation.data.longitude }}</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Time Zone (UTC+)</td>
+                            <td><strong>{{ geoLocation.data.timeZone }}</strong></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

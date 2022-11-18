@@ -1,0 +1,4 @@
+1.0.1:
+    - First version of GeoLocation
+    - create_ip_info_locations_table.php
+1.0.2: Fix MaxMind null timezone error
