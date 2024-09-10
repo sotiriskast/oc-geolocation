@@ -5,10 +5,10 @@
   "license": "MIT",
   "require": {
     "composer/installers": "~1.0",
-    "guzzlehttp/guzzle": "8.0.x-dev",
+    "guzzlehttp/guzzle": "7.9",
     "geoip2/geoip2": "~2.0",
     "maxmind-db/reader": "^1.11",
-    "symfony/event-dispatcher": "7.2.x-dev"
+    "symfony/event-dispatcher": "7.1"
   },
   "config": {
     "allow-plugins": {
