@@ -5,7 +5,7 @@
     "license": "MIT",
     "require": {
         "php": "^5.6",
-        "october/rain": ">=1.0",
+        "october/rain": "*",
         "composer/installers": "~1.0"
     },
     "authors": [
