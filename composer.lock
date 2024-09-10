@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56fe2bd6e4341a5bcfcce141f7f0403e",
+    "content-hash": "c987f9d7f2544f9bff66a38c19b02cab",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -508,63 +508,6 @@
                 "source": "https://github.com/maxmind/web-service-common-php/tree/v0.9.0"
             },
             "time": "2022-03-28T17:43:20+00:00"
-        },
-        {
-            "name": "october/system",
-            "version": "1.1.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/octoberrain/system.git",
-                "reference": "cffaaaf12075302089995fd795677a16bef94787"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/octoberrain/system/zipball/cffaaaf12075302089995fd795677a16bef94787",
-                "reference": "cffaaaf12075302089995fd795677a16bef94787",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=7.2"
-            },
-            "type": "october-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "System\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alexey Bobkov",
-                    "email": "aleksey.bobkov@gmail.com",
-                    "role": "Co-founder"
-                },
-                {
-                    "name": "Samuel Georges",
-                    "email": "daftspunky@gmail.com",
-                    "role": "Co-founder"
-                }
-            ],
-            "description": "System module for October CMS",
-            "homepage": "https://octobercms.com",
-            "keywords": [
-                "october",
-                "october cms",
-                "system"
-            ],
-            "support": {
-                "source": "https://github.com/octoberrain/system/tree/1.1"
-            },
-            "time": "2022-02-20T01:54:45+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
