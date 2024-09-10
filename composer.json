@@ -1,9 +1,24 @@
 {
     "name": "skwebsolution/geolocation-plugin",
     "type": "october-plugin",
-    "description": "None",
+    "description": "Retrieve geo location information from visitors IP address\n\n",
+    "license": "MIT",
     "require": {
+        "php": "^5.6",
+        "october/rain": "*",
         "composer/installers": "~1.0"
     },
-    "license": "MIT"
+    "authors": [
+        {
+            "name": "Alexey Bobkov",
+            "email": "aleksey.bobkov@gmail.com",
+            "role": "Co-founder"
+        },
+        {
+            "name": "Samuel Georges",
+            "email": "daftspunky@gmail.com",
+            "role": "Co-founder"
+        }
+    ],
+    "minimum-stability": "dev"
 }
