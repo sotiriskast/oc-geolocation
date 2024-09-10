@@ -9,6 +9,6 @@ class Geo extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return app(GeoLocationService::class);
+        return GeoLocationService::class;
     }
 }
