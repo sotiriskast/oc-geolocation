@@ -5,7 +5,7 @@
   "license": "MIT",
   "require": {
     "composer/installers": "~1.0",
-    "guzzlehttp/guzzle": "7.9",
+    "guzzlehttp/guzzle": "~7.9.2",
     "geoip2/geoip2": "~2.0",
     "maxmind-db/reader": "^1.11",
     "symfony/event-dispatcher": "7.1"
