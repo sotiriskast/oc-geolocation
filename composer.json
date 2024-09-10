@@ -1,5 +1,5 @@
 {
-    "name": "raccoon/geolocation-plugin",
+    "name": "skwebsolution/geolocation-plugin",
     "type": "october-plugin",
     "description": "None",
     "require": {

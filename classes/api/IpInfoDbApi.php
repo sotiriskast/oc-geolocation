@@ -1,18 +1,18 @@
 <?php
 
-namespace Raccoon\GeoLocation\Classes\Api;
+namespace skwebsolution\GeoLocation\Classes\Api;
 
 use Carbon\Carbon;
 use Exception;
 use Illuminate\Support\Facades\DB;
 use PDOException;
 use Queue;
-use Raccoon\GeoLocation\Classes\GeoLocationApiInterface;
-use Raccoon\GeoLocation\Classes\GeoLocationException;
-use Raccoon\GeoLocation\Classes\GeoLocationItem;
-use Raccoon\GeoLocation\Classes\GetLocationFromInfoDbJob;
-use Raccoon\GeoLocation\Models\IpInfoLocation;
-use Raccoon\GeoLocation\Models\Settings;
+use skwebsolution\GeoLocation\Classes\GeoLocationApiInterface;
+use skwebsolution\GeoLocation\Classes\GeoLocationException;
+use skwebsolution\GeoLocation\Classes\GeoLocationItem;
+use skwebsolution\GeoLocation\Classes\GetLocationFromInfoDbJob;
+use skwebsolution\GeoLocation\Models\IpInfoLocation;
+use skwebsolution\GeoLocation\Models\Settings;
 
 class IpInfoDbApi implements GeoLocationApiInterface
 {

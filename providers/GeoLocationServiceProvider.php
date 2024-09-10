@@ -1,12 +1,12 @@
 <?php
 
-namespace Raccoon\GeoLocation\Providers;
+namespace skwebsolution\GeoLocation\Providers;
 
 use October\Rain\Support\ServiceProvider;
-use Raccoon\GeoLocation\Classes\Api\IpInfoDbApi;
-use Raccoon\GeoLocation\Classes\Api\MaxMindGeoApi;
-use Raccoon\GeoLocation\Classes\GeoLocationService;
-use Raccoon\GeoLocation\Models\Settings;
+use skwebsolution\GeoLocation\Classes\Api\IpInfoDbApi;
+use skwebsolution\GeoLocation\Classes\Api\MaxMindGeoApi;
+use skwebsolution\GeoLocation\Classes\GeoLocationService;
+use skwebsolution\GeoLocation\Models\Settings;
 
 class GeoLocationServiceProvider extends ServiceProvider
 {

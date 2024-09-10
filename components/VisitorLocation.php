@@ -1,8 +1,8 @@
-<?php namespace Raccoon\GeoLocation\Components;
+<?php namespace skwebsolution\GeoLocation\Components;
 
 use Cms\Classes\ComponentBase;
-use Raccoon\GeoLocation\Classes\GeoLocationItem;
-use Raccoon\GeoLocation\Facades\Geo;
+use skwebsolution\GeoLocation\Classes\GeoLocationItem;
+use skwebsolution\GeoLocation\Facades\Geo;
 
 class VisitorLocation extends ComponentBase
 {

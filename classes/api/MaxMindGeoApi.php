@@ -1,14 +1,14 @@
 <?php
 
-namespace Raccoon\GeoLocation\Classes\Api;
+namespace skwebsolution\GeoLocation\Classes\Api;
 
 use DateTime;
 use DateTimeZone;
 use GeoIp2\Database\Reader;
 use GeoIp2\Exception\GeoIp2Exception;
-use Raccoon\GeoLocation\Classes\GeoLocationApiInterface;
-use Raccoon\GeoLocation\Classes\GeoLocationItem;
-use Raccoon\GeoLocation\Models\Settings;
+use skwebsolution\GeoLocation\Classes\GeoLocationApiInterface;
+use skwebsolution\GeoLocation\Classes\GeoLocationItem;
+use skwebsolution\GeoLocation\Models\Settings;
 
 class MaxMindGeoApi implements GeoLocationApiInterface
 {

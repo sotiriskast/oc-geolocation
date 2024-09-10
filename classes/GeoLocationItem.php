@@ -1,6 +1,6 @@
 <?php
 
-namespace Raccoon\GeoLocation\Classes;
+namespace skwebsolution\GeoLocation\Classes;
 
 class GeoLocationItem
 {

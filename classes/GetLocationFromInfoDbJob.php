@@ -1,9 +1,9 @@
 <?php
 
-namespace Raccoon\GeoLocation\Classes;
+namespace skwebsolution\GeoLocation\Classes;
 
 use Illuminate\Queue\Jobs\Job;
-use Raccoon\GeoLocation\Classes\Api\IpInfoDbApi;
+use skwebsolution\GeoLocation\Classes\Api\IpInfoDbApi;
 
 class GetLocationFromInfoDbJob
 {

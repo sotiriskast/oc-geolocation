@@ -1,10 +1,9 @@
-<?php namespace Raccoon\GeoLocation;
+<?php namespace skwebsolution\GeoLocation;
 
-use Raccoon\GeoLocation\Components\VisitorLocation;
-use Raccoon\GeoLocation\Models\Settings;
-use Raccoon\GeoLocation\Providers\GeoLocationServiceProvider;
+use skwebsolution\GeoLocation\Components\VisitorLocation;
+use skwebsolution\GeoLocation\Models\Settings;
+use skwebsolution\GeoLocation\Providers\GeoLocationServiceProvider;
 use System\Classes\PluginBase;
-
 /**
  * GeoLocation Plugin Information File
  */
@@ -56,12 +55,12 @@ class Plugin extends PluginBase
     {
         return [
             'settings' => [
-                'label' => 'Raccoon GeoLocation',
+                'label' => 'skwebsolution GeoLocation',
                 'description' => 'Configure geo location services, API keys and settings.',
                 'icon' => 'icon-compass',
                 'class' => Settings::class,
                 'order' => 500,
-                'keywords' => 'geolocation ip location country state geo raccoon'
+                'keywords' => 'geolocation ip location country state geo skwebsolution'
             ]
         ];
     }

@@ -1,9 +1,9 @@
 <?php
 
-namespace Raccoon\GeoLocation\Facades;
+namespace skwebsolution\GeoLocation\Facades;
 
 use October\Rain\Support\Facade;
-use Raccoon\GeoLocation\Classes\GeoLocationService;
+use skwebsolution\GeoLocation\Classes\GeoLocationService;
 
 class Geo extends Facade
 {

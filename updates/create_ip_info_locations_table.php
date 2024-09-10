@@ -1,4 +1,4 @@
-<?php namespace Raccoon\GeoLocation\Updates;
+<?php namespace skwebsolution\GeoLocation\Updates;
 
 use Illuminate\Support\Facades\DB;
 use October\Rain\Database\Schema\Blueprint;
@@ -9,7 +9,7 @@ class CreateIpInfoLocationsTable extends Migration
 {
     public function up()
     {
-        Schema::create('raccoon_geolocation_ip_info_locations', function (Blueprint $table) {
+        Schema::create('skwebsolution_geolocation_ip_info_locations', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->string('ip', 50);
             $table->string('country_code', 2)->nullable();
@@ -29,6 +29,6 @@ class CreateIpInfoLocationsTable extends Migration
 
     public function down()
     {
-        Schema::dropIfExists('raccoon_geolocation_ip_info_locations');
+        Schema::dropIfExists('skwebsolution_geolocation_ip_info_locations');
     }
 }
