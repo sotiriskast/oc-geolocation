@@ -6,10 +6,10 @@
   "minimum-stability": "dev",
   "require": {
     "composer/installers": "~1.0",
-    "guzzle/guzzle": "^3.9",
-    "symfony/event-dispatcher": "^2.8",
-    "geoip2/geoip2": "^3.0",
-    "maxmind-db/reader": "^1.11"
+    "guzzlehttp/guzzle": "8.0.x-dev",
+    "geoip2/geoip2": "~2.0",
+    "maxmind-db/reader": "^1.11",
+    "symfony/event-dispatcher": "7.2.x-dev"
   },
   "config": {
     "allow-plugins": {
