@@ -1,6 +1,7 @@
 <?php namespace skwebsolution\GeoLocation;
 
 use skwebsolution\GeoLocation\Components\VisitorLocation;
+use skwebsolution\GeoLocation\Facades\Geo;
 use skwebsolution\GeoLocation\Models\Settings;
 use skwebsolution\GeoLocation\Providers\GeoLocationServiceProvider;
 use System\Classes\PluginBase;
@@ -64,6 +65,15 @@ class Plugin extends PluginBase
             ]
         ];
     }
-
+    public function registerMarkupTags()
+    {
+        return [
+            'functions' => [
+                'getLocationInformation' => function () {
+                    return Geo::getLocation($_SERVER['REMOTE_ADDR']);
+                },
+            ],
+        ];
+    }
 
 }
