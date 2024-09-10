@@ -1,14 +1,14 @@
 <?php
 
-namespace Ideaseven\GeoLocation\Classes\Api;
+namespace Raccoon\GeoLocation\Classes\Api;
 
 use DateTime;
 use DateTimeZone;
 use GeoIp2\Database\Reader;
 use GeoIp2\Exception\GeoIp2Exception;
-use Ideaseven\GeoLocation\Classes\GeoLocationApiInterface;
-use Ideaseven\GeoLocation\Classes\GeoLocationItem;
-use Ideaseven\GeoLocation\Models\Settings;
+use Raccoon\GeoLocation\Classes\GeoLocationApiInterface;
+use Raccoon\GeoLocation\Classes\GeoLocationItem;
+use Raccoon\GeoLocation\Models\Settings;
 
 class MaxMindGeoApi implements GeoLocationApiInterface
 {

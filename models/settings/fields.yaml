@@ -6,7 +6,7 @@ fields:
     geo_api_service:
         type: dropdown
         label: API Service
-        default: maxmind
+        default: ipinfodb
         span: left
         options:
             ipinfodb: ipinfodb.com
@@ -48,7 +48,6 @@ fields:
         type: text
         span: left
         label: "Path of MaxMind GeoCity database file"
-        placeholder: app/geolite/GeoLite2-City.mmdb
+        placeholder: app/Geo2-City.mmdb
         comment: "Path relative to storage directory. Free GeoLite2 City database is included with this plugin and will be used if this field is left blank."
         dependsOn: geo_api_service
-        default: app/geolite/GeoLite2-City.mmdb

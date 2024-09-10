@@ -1,4 +1,4 @@
-<?php namespace Ideaseven\GeoLocation\Models;
+<?php namespace Raccoon\GeoLocation\Models;
 
 use Model;
 
@@ -8,7 +8,7 @@ use Model;
  */
 class IpInfoLocation extends Model
 {
-    const TABLE = 'Ideaseven_geolocation_ip_info_locations';
+    const TABLE = 'raccoon_geolocation_ip_info_locations';
     /**
      * @var string The database table used by the model.
      */

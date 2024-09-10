@@ -1,8 +1,8 @@
-<?php namespace Ideaseven\GeoLocation\Components;
+<?php namespace Raccoon\GeoLocation\Components;
 
 use Cms\Classes\ComponentBase;
-use Ideaseven\GeoLocation\Classes\GeoLocationItem;
-use Ideaseven\GeoLocation\Facades\Geo;
+use Raccoon\GeoLocation\Classes\GeoLocationItem;
+use Raccoon\GeoLocation\Facades\Geo;
 
 class VisitorLocation extends ComponentBase
 {

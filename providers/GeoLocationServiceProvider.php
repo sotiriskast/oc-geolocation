@@ -1,12 +1,12 @@
 <?php
 
-namespace Ideaseven\GeoLocation\Providers;
+namespace Raccoon\GeoLocation\Providers;
 
 use October\Rain\Support\ServiceProvider;
-use Ideaseven\GeoLocation\Classes\Api\IpInfoDbApi;
-use Ideaseven\GeoLocation\Classes\Api\MaxMindGeoApi;
-use Ideaseven\GeoLocation\Classes\GeoLocationService;
-use Ideaseven\GeoLocation\Models\Settings;
+use Raccoon\GeoLocation\Classes\Api\IpInfoDbApi;
+use Raccoon\GeoLocation\Classes\Api\MaxMindGeoApi;
+use Raccoon\GeoLocation\Classes\GeoLocationService;
+use Raccoon\GeoLocation\Models\Settings;
 
 class GeoLocationServiceProvider extends ServiceProvider
 {

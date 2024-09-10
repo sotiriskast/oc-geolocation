@@ -1,6 +1,6 @@
 <?php
 
-namespace Ideaseven\GeoLocation\Models;
+namespace Raccoon\GeoLocation\Models;
 
 use Backend\Classes\FormField;
 use Model;
@@ -34,7 +34,7 @@ class Settings extends Model
     /**
      * @var string
      */
-    public $settingsCode = 'Ideaseven_geolocation_settings';
+    public $settingsCode = 'raccoon_geolocation_settings';
 
     /**
      * @var string

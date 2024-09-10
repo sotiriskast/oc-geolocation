@@ -1,6 +1,6 @@
 <?php
 
-namespace Ideaseven\GeoLocation\Classes;
+namespace Raccoon\GeoLocation\Classes;
 
 class GeoLocationService
 {

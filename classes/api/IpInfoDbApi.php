@@ -1,18 +1,18 @@
 <?php
 
-namespace Ideaseven\GeoLocation\Classes\Api;
+namespace Raccoon\GeoLocation\Classes\Api;
 
 use Carbon\Carbon;
 use Exception;
 use Illuminate\Support\Facades\DB;
 use PDOException;
 use Queue;
-use Ideaseven\GeoLocation\Classes\GeoLocationApiInterface;
-use Ideaseven\GeoLocation\Classes\GeoLocationException;
-use Ideaseven\GeoLocation\Classes\GeoLocationItem;
-use Ideaseven\GeoLocation\Classes\GetLocationFromInfoDbJob;
-use Ideaseven\GeoLocation\Models\IpInfoLocation;
-use Ideaseven\GeoLocation\Models\Settings;
+use Raccoon\GeoLocation\Classes\GeoLocationApiInterface;
+use Raccoon\GeoLocation\Classes\GeoLocationException;
+use Raccoon\GeoLocation\Classes\GeoLocationItem;
+use Raccoon\GeoLocation\Classes\GetLocationFromInfoDbJob;
+use Raccoon\GeoLocation\Models\IpInfoLocation;
+use Raccoon\GeoLocation\Models\Settings;
 
 class IpInfoDbApi implements GeoLocationApiInterface
 {

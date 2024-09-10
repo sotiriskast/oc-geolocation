@@ -1,9 +1,9 @@
 <?php
 
-namespace Ideaseven\GeoLocation\Facades;
+namespace Raccoon\GeoLocation\Facades;
 
 use October\Rain\Support\Facade;
-use Ideaseven\GeoLocation\Classes\GeoLocationService;
+use Raccoon\GeoLocation\Classes\GeoLocationService;
 
 class Geo extends Facade
 {

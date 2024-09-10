@@ -1,7 +1,7 @@
 {
-    "name": "ideaseven/location-plugin",
+    "name": "raccoon/geolocation-plugin",
     "type": "october-plugin",
-    "description": "No description provided yet...",
+    "description": "None",
     "require": {
         "composer/installers": "~1.0"
     }
